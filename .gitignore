@@ -1,0 +1,11 @@
+# sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# fase 3 (PHP): credenciales locales
+config.local.php
+.env
+# pruebas
+__pycache__/
+node_modules/
