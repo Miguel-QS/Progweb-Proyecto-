@@ -1,0 +1,10 @@
+<?php
+// Copia este archivo como config.local.php (ya está en .gitignore) y ajusta tus datos.
+return [
+    'db_host' => '127.0.0.1',
+    'db_port' => 3306,
+    'db_name' => 'albummatch',
+    'db_user' => 'albummatch_app',        // creado con database/usuario_app.sql
+    'db_pass' => 'CAMBIA_ESTA_CLAVE',
+    'session_days' => 30,
+];
