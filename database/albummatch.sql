@@ -1,11 +1,15 @@
 -- =====================================================================
--- AlbumMatch - Base de datos (versión corregida)
--- Probado en MariaDB 10.11 (XAMPP). Contraseña de TODOS los usuarios de
--- prueba: AlbumMatch2026!   (cámbiala antes de usar en serio)
--- OJO: este script NO borra la base si ya existe. Si quieres reiniciarla,
--- ejecuta manualmente: DROP DATABASE albummatch;
+-- AlbumMatch - Base de datos (14 tablas, 2 vistas, 1 trigger, datos de ejemplo)
+-- Probado en MariaDB 10.11 (XAMPP / phpMyAdmin).
+-- Contraseña de TODOS los usuarios de prueba: AlbumMatch2026!
+--   admin@albummatch.com (Administrador) · marina@ejemplo.com (Usuario)
+-- Cámbiala antes de usar en serio.
+--
+-- Para reiniciar la base desde cero: quita los dos guiones de la línea
+-- DROP DATABASE de abajo (BORRA todos los datos de albummatch) e importa.
 -- =====================================================================
 
+-- DROP DATABASE IF EXISTS albummatch;
 CREATE DATABASE albummatch CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE albummatch;
 SET NAMES utf8mb4;
